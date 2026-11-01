@@ -1,0 +1,25 @@
+<svg width="600" height="380" viewBox="0 0 600 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="380" rx="16" fill="#11151C"/>
+  <!-- Dark architectural background pattern / building structure -->
+  <path d="M0 0 L600 0 L600 380 L0 380 Z" fill="#0D1117"/>
+  <rect x="280" y="80" width="300" height="260" rx="8" fill="#1C212B" stroke="#2D333F"/>
+  <!-- Windows with warm glow -->
+  <rect x="300" y="100" width="70" height="90" fill="#E89A58" fill-opacity="0.25"/>
+  <rect x="385" y="100" width="70" height="90" fill="#E89A58" fill-opacity="0.35"/>
+  <rect x="470" y="100" width="90" height="90" fill="#E89A58" fill-opacity="0.15"/>
+  <rect x="300" y="210" width="120" height="110" fill="#E89A58" fill-opacity="0.2"/>
+  <rect x="440" y="210" width="120" height="110" fill="#E89A58" fill-opacity="0.4"/>
+
+  <!-- Left editorial typography -->
+  <text x="40" y="60" font-family="sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#E4E8EF">STUDIO NOIRVA</text>
+
+  <text x="40" y="130" font-family="serif" font-size="32" font-weight="700" fill="#FFFFFF">Spaces</text>
+  <text x="40" y="170" font-family="serif" font-size="32" font-weight="700" fill="#FFFFFF">for a Better</text>
+  <text x="40" y="210" font-family="serif" font-size="32" font-weight="700" fill="#FFFFFF">Tomorrow</text>
+
+  <text x="40" y="250" font-family="sans-serif" font-size="12" fill="#8B949E">We design timeless spaces that connect</text>
+  <text x="40" y="270" font-family="sans-serif" font-size="12" fill="#8B949E">people, place, and purpose.</text>
+
+  <rect x="40" y="300" width="120" height="32" rx="16" stroke="#484F58" stroke-width="1.5"/>
+  <text x="58" y="320" font-family="sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Explore Our Work</text>
+</svg>

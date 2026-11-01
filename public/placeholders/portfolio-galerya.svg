@@ -1,0 +1,29 @@
+<svg width="600" height="380" viewBox="0 0 600 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="380" rx="16" fill="#FBF8F5"/>
+
+  <!-- Warm aesthetic living room / furniture illustration on right -->
+  <rect x="290" y="40" width="280" height="300" rx="10" fill="#EFE8DE"/>
+  <!-- Minimalist sofa / chair -->
+  <rect x="320" y="160" width="160" height="90" rx="14" fill="#D5C4B0"/>
+  <rect x="340" y="220" width="120" height="40" rx="8" fill="#C5B29B"/>
+  <!-- Floor lamp -->
+  <line x1="500" y1="80" x2="500" y2="280" stroke="#8E7C68" stroke-width="3"/>
+  <ellipse cx="500" cy="80" rx="28" ry="16" fill="#F4EDE4" stroke="#8E7C68" stroke-width="2"/>
+  <ellipse cx="500" cy="280" rx="20" ry="6" fill="#8E7C68"/>
+  <!-- Wall Art -->
+  <rect x="340" y="70" width="90" height="70" rx="4" fill="#FFFFFF" stroke="#D3C3AF" stroke-width="1.5"/>
+  <circle cx="385" cy="105" r="20" fill="#D59367" fill-opacity="0.5"/>
+
+  <!-- Left typography -->
+  <text x="40" y="60" font-family="sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#5C4D3C">GALERYA</text>
+
+  <text x="40" y="130" font-family="serif" font-size="30" font-weight="700" fill="#2E2319">Furniture</text>
+  <text x="40" y="168" font-family="serif" font-size="30" font-weight="700" fill="#2E2319">for a Warmer</text>
+  <text x="40" y="206" font-family="serif" font-size="30" font-weight="700" fill="#2E2319">Home</text>
+
+  <text x="40" y="240" font-family="sans-serif" font-size="12" fill="#7D6F60">Handcrafted with natural materials</text>
+  <text x="40" y="258" font-family="sans-serif" font-size="12" fill="#7D6F60">and timeless design for everyday living.</text>
+
+  <rect x="40" y="285" width="130" height="34" rx="17" fill="#C57E4E"/>
+  <text x="56" y="306" font-family="sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">Shop Collection ➔</text>
+</svg>

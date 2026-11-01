@@ -1,0 +1,76 @@
+<svg width="420" height="280" viewBox="0 0 420 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="ecomShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#ecomShadow)">
+    <rect x="15" y="15" width="390" height="250" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+
+    <!-- Top Nav bar -->
+    <rect x="15" y="15" width="390" height="34" rx="12" fill="#F8FAFC"/>
+    <rect x="30" y="27" width="55" height="10" rx="3" fill="#15213C"/>
+    <!-- Search bar in store -->
+    <rect x="110" y="23" width="160" height="18" rx="9" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <circle cx="122" cy="32" r="3.5" stroke="#94A3B8" stroke-width="1.5"/>
+    <!-- Cart badge -->
+    <circle cx="370" cy="32" r="10" fill="#FFF5F1"/>
+    <path d="M366 30 L368 30 L370 36 L375 36" stroke="#F26B45" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <circle cx="371" cy="38" r="1.5" fill="#F26B45"/>
+    <circle cx="375" cy="38" r="1.5" fill="#F26B45"/>
+
+    <!-- Left Featured Promo Card -->
+    <g transform="translate(30, 60)">
+      <rect width="125" height="185" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+      <rect x="12" y="14" width="55" height="8" rx="2" fill="#E67E22" fill-opacity="0.2"/>
+      <text x="15" y="20" font-family="sans-serif" font-size="6" font-weight="bold" fill="#D35400">BEST CHOICE</text>
+      <text x="12" y="38" font-family="sans-serif" font-size="11" font-weight="bold" fill="#15213C">Produk Pilihan</text>
+      <text x="12" y="52" font-family="sans-serif" font-size="11" font-weight="bold" fill="#15213C">untuk Gaya</text>
+      <text x="12" y="66" font-family="sans-serif" font-size="11" font-weight="bold" fill="#F26B45">Modern.</text>
+
+      <!-- Big chair illustration -->
+      <rect x="12" y="80" width="101" height="90" rx="6" fill="#F1F5F9"/>
+      <rect x="35" y="95" width="55" height="40" rx="6" fill="#C5A880"/>
+      <line x1="42" y1="135" x2="38" y2="158" stroke="#8E7C68" stroke-width="3" stroke-linecap="round"/>
+      <line x1="82" y1="135" x2="86" y2="158" stroke="#8E7C68" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Right 4 Product Grid -->
+    <!-- Product 1: Armchair -->
+    <g transform="translate(168, 60)">
+      <rect width="105" height="88" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <rect x="8" y="8" width="89" height="48" rx="4" fill="#F8FAFC"/>
+      <rect x="32" y="16" width="40" height="26" rx="4" fill="#CBB69D"/>
+      <text x="8" y="68" font-family="sans-serif" font-size="8" font-weight="bold" fill="#15213C">Lounge Chair</text>
+      <text x="8" y="79" font-family="sans-serif" font-size="7.5" font-weight="bold" fill="#F26B45">Rp 1.450.000</text>
+    </g>
+
+    <!-- Product 2: Ceramic Lamp -->
+    <g transform="translate(285, 60)">
+      <rect width="105" height="88" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <rect x="8" y="8" width="89" height="48" rx="4" fill="#F8FAFC"/>
+      <circle cx="52" cy="30" r="15" fill="#A8DADC"/>
+      <text x="8" y="68" font-family="sans-serif" font-size="8" font-weight="bold" fill="#15213C">Ceramic Lamp</text>
+      <text x="8" y="79" font-family="sans-serif" font-size="7.5" font-weight="bold" fill="#F26B45">Rp 480.000</text>
+    </g>
+
+    <!-- Product 3: Wood Table -->
+    <g transform="translate(168, 157)">
+      <rect width="105" height="88" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <rect x="8" y="8" width="89" height="48" rx="4" fill="#F8FAFC"/>
+      <rect x="25" y="22" width="55" height="15" rx="3" fill="#D4A373"/>
+      <text x="8" y="68" font-family="sans-serif" font-size="8" font-weight="bold" fill="#15213C">Oak Table</text>
+      <text x="8" y="79" font-family="sans-serif" font-size="7.5" font-weight="bold" fill="#F26B45">Rp 2.100.000</text>
+    </g>
+
+    <!-- Product 4: Soft Cushion -->
+    <g transform="translate(285, 157)">
+      <rect width="105" height="88" rx="6" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <rect x="8" y="8" width="89" height="48" rx="4" fill="#F8FAFC"/>
+      <rect x="30" y="16" width="45" height="28" rx="5" fill="#CCD5AE"/>
+      <text x="8" y="68" font-family="sans-serif" font-size="8" font-weight="bold" fill="#15213C">Linen Cushion</text>
+      <text x="8" y="79" font-family="sans-serif" font-size="7.5" font-weight="bold" fill="#F26B45">Rp 220.000</text>
+    </g>
+  </g>
+</svg>

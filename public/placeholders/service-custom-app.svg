@@ -1,0 +1,75 @@
+<svg width="420" height="280" viewBox="0 0 420 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="appShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#appShadow)">
+    <rect x="15" y="15" width="390" height="250" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+
+    <!-- Top Bar -->
+    <rect x="15" y="15" width="390" height="34" rx="12" fill="#0F172A"/>
+    <circle cx="34" cy="32" r="3.5" fill="#EF4444"/>
+    <circle cx="45" cy="32" r="3.5" fill="#F59E0B"/>
+    <circle cx="56" cy="32" r="3.5" fill="#10B981"/>
+    <text x="80" y="36" font-family="sans-serif" font-size="9" font-weight="bold" fill="#94A3B8">Analytics Dashboard</text>
+    <rect x="330" y="24" width="60" height="16" rx="4" fill="#1E293B"/>
+    <text x="340" y="35" font-family="sans-serif" font-size="7" font-weight="bold" fill="#F26B45">+ New Task</text>
+
+    <!-- Mini Left Sidebar -->
+    <rect x="15" y="49" width="55" height="216" fill="#1E293B"/>
+    <circle cx="42" cy="72" r="10" fill="#F26B45"/>
+    <rect x="25" y="96" width="35" height="5" rx="2" fill="#94A3B8"/>
+    <rect x="25" y="112" width="35" height="5" rx="2" fill="#64748B"/>
+    <rect x="25" y="128" width="35" height="5" rx="2" fill="#64748B"/>
+    <rect x="25" y="144" width="35" height="5" rx="2" fill="#64748B"/>
+
+    <!-- 3 Metric Cards: 24, 186, 12 -->
+    <g transform="translate(85, 62)">
+      <rect width="90" height="56" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+      <text x="12" y="22" font-family="sans-serif" font-size="8.5" font-weight="600" fill="#64748B">Total Proyek</text>
+      <text x="12" y="44" font-family="sans-serif" font-size="19" font-weight="extrabold" fill="#15213C">24</text>
+      <circle cx="72" cy="22" r="4" fill="#3B82F6"/>
+    </g>
+
+    <g transform="translate(187, 62)">
+      <rect width="90" height="56" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+      <text x="12" y="22" font-family="sans-serif" font-size="8.5" font-weight="600" fill="#64748B">Pengguna Aktif</text>
+      <text x="12" y="44" font-family="sans-serif" font-size="19" font-weight="extrabold" fill="#15213C">186</text>
+      <circle cx="72" cy="22" r="4" fill="#10B981"/>
+    </g>
+
+    <g transform="translate(290, 62)">
+      <rect width="90" height="56" rx="8" fill="#F8FAFC" stroke="#E2E8F0"/>
+      <text x="12" y="22" font-family="sans-serif" font-size="8.5" font-weight="600" fill="#64748B">Selesai</text>
+      <text x="12" y="44" font-family="sans-serif" font-size="19" font-weight="extrabold" fill="#F26B45">12</text>
+      <circle cx="72" cy="22" r="4" fill="#F26B45"/>
+    </g>
+
+    <!-- Main Chart Card & Gauge -->
+    <g transform="translate(85, 130)">
+      <rect width="200" height="120" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <text x="14" y="22" font-family="sans-serif" font-size="9.5" font-weight="bold" fill="#15213C">Aktivitas Sistem</text>
+      <line x1="14" y1="45" x2="186" y2="45" stroke="#F1F5F9"/>
+      <line x1="14" y1="75" x2="186" y2="75" stroke="#F1F5F9"/>
+      <line x1="14" y1="105" x2="186" y2="105" stroke="#F1F5F9"/>
+
+      <!-- Gradient area and stroke -->
+      <path d="M14 95 Q55 50 95 75 T155 45 L186 35 L186 105 L14 105 Z" fill="#F26B45" fill-opacity="0.1"/>
+      <path d="M14 95 Q55 50 95 75 T155 45 L186 35" fill="none" stroke="#F26B45" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="155" cy="45" r="3.5" fill="#F26B45"/>
+      <circle cx="186" cy="35" r="3.5" fill="#15213C"/>
+    </g>
+
+    <!-- Progress donut right -->
+    <g transform="translate(295, 130)">
+      <rect width="85" height="120" rx="8" fill="#FFFFFF" stroke="#E2E8F0"/>
+      <text x="12" y="22" font-family="sans-serif" font-size="9" font-weight="bold" fill="#15213C">Target</text>
+      <circle cx="42" cy="62" r="26" stroke="#F1F5F9" stroke-width="7" fill="none"/>
+      <circle cx="42" cy="62" r="26" stroke="#F26B45" stroke-width="7" stroke-dasharray="125 40" stroke-linecap="round" fill="none"/>
+      <text x="31" y="66" font-family="sans-serif" font-size="12" font-weight="extrabold" fill="#15213C">84%</text>
+      <rect x="15" y="100" width="55" height="6" rx="2" fill="#64748B"/>
+    </g>
+  </g>
+</svg>
